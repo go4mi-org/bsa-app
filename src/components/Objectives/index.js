@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../Container";
+import { GiCheckMark } from "react-icons/gi";
 
 const Objectives = () => {
   return (
@@ -9,86 +10,95 @@ const Objectives = () => {
       </h1>
       <Container>
         <div className="flex flex-wrap w-full">
-          <div className="flex-1 min-h-96 bg-slate-100 p-4">
-            <ul className="text-slate-500 w-full pt-12 gap-4 px-4 mb-8 flex flex-wrap">
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">01.</span>Understand and describe the
-                role of a Business Analyst
+          <div className="flex-1 min-h-96 p-4">
+            <ul className="text-slate-500 w-full gap-12 px-4 mb-8 flex justify-center flex-wrap">
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />
+                Understand and describe the role of a Business Analyst
               </li>
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">02.</span>Describe and demonstrate
-                the framework for requirement analysis and software development
-                processes
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />
+                Describe and demonstrate the framework for requirement analysis
+                and software development processes
               </li>
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">03.</span>Identify errors in
-                analysis, design, and development initiatives
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />
+                Identify errors in analysis, design, and development initiatives
               </li>
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">04.</span>Analyze and document
-                requirement for products that meet the need of stakeholders
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />
+                Analyze and document requirement for products that meet the need
+                of stakeholders
               </li>
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">05.</span>Apply various modeling
-                techniques in validating and documenting functional requirements
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />
+                Apply various modeling techniques in validating and documenting
+                functional requirements
               </li>
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">06.</span>Create and manage an
-                effective change management process
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />
+                Create and manage an effective change management process
               </li>
-            </ul>
-          </div>
-          <div className="flex-1 min-h-96 bg-blue-800 p-4">
-            <ul className="text-slate-100 pt-12 w-full gap-4 px-4 mb-8 flex flex-wrap">
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">07.</span>Understand and describe the
-                role of a Business Analyst
+
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+                Understand and describe the role of a Business Analyst
               </li>
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">08.</span>Describe and demonstrate
-                the framework for requirement analysis and software development
-                processes
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+                Describe and demonstrate the framework for requirement analysis
+                and software development processes
               </li>
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">09.</span>Identify errors in
-                analysis, design, and development initiatives
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+                Identify errors in analysis, design, and development initiatives
               </li>
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">10.</span>Analyze and document
-                requirement for products that meet the need of stakeholders
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+                Analyze and document requirement for products that meet the need
+                of stakeholders
               </li>
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">11.</span>Apply various modeling
-                techniques in validating and documenting functional requirements
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+                Apply various modeling techniques in validating and documenting
+                functional requirements
               </li>
-              <li className="flex gap-2 md:p-4 max-w-[400px]">
-                <span className="text-2xl">12.</span>Create and manage an
-                effective change management process
+              <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+                Create and manage an effective change management process
               </li>
             </ul>
           </div>
         </div>
-        <div className="w-full mt-16">
+        <div className="w-full text-center mt-16">
           <p className="text-slate-700 font-semibold mb-4 lg:mb-0">
-            Business Systems Analysts is the discipline of controlling and
+            Business Systems Analysis is the discipline of controlling and
             supporting change in an organizational environment.
           </p>
           <p className="text-slate-700 font-semibold mb-4">
             A Business System Analyst is a person who facilitates these changes
             by:
           </p>
-          <ul className="list-[square] text-slate-500 flex flex-col gap-4 justify-center w-full px-4">
-            <li className="bg-slate-100 p-4">
+
+          <ul className="text-slate-500 w-full justify-center gap-12 px-4 mb-8 flex flex-wrap">
+            <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+              <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
               Identifying the strategic goals/needs of the business
             </li>
-            <li className="bg-slate-100 p-4">
+            <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+              <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
               Recommending areas of improvement through technology
             </li>
-            <li className="bg-slate-100 p-4">Documenting the recommended solutions</li>
-            <li className="bg-slate-100 p-4">
+            <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+              <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+              Documenting the recommended solutions
+            </li>
+            <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+              <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
               Managing the process of developing the documented solution
             </li>
-            <li className="bg-slate-100 p-4">
+            <li className="flex gap-4 bg-slate-100 relative p-4 min-w-[250px] lg:max-w-[300px]">
+              <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
               Finally, verifying the developed solutions to ensure they deliver
               the best value to stakeholders
             </li>

@@ -3,9 +3,9 @@ import { stateData } from "../../Utils/states";
 
 const index = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
   const registrationModalShowStyle =
-    "fixed translate-y-8 transition-all flex flex-col items-center px-4 justify-center bg-slate-800 h-full w-full";
+    "fixed translate-y-8 transition-all flex flex-col items-center px-4 justify-center bg-sky-700 h-full w-full";
   const registrationModalHideStyle =
-    "fixed translate-y-8 transition-all flex flex-col items-center px-4 justify-center bg-slate-800 h-full w-full scale-0";
+    "fixed translate-y-8 transition-all flex flex-col items-center px-4 justify-center bg-sky-700 h-full w-full scale-0";
   return (
     <div
       className={
@@ -15,12 +15,12 @@ const index = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
       }
     >
       <form className="bg-slate-100 rounded-lg overflow-hidden opacity-none min-w-[280px] max-w-[900px]">
-        <div className="bg-slate-800">
+        <div className="bg-sky-700">
           <p className="text-slate-200 w-full  font-bold">
             <span className="font-bold">Make Payment: #550, 000</span> <br />
             Installment:
           </p>
-          <p className="text-slate-200 w-full py-4">
+          <p className="text-slate-200 font-bold w-full py-4">
             Break: 50% Upfront <br />
             Second payment 25% <br /> Final payment 25% Full payment
           </p>

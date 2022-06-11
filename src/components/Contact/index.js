@@ -3,11 +3,11 @@ import Container from "../Container";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full flex items-center bg-slate-800 py-12">
+    <div id="contact" className="w-full flex items-center bg-sky-700 py-12">
       <Container>
         <div className="w-full justify-between items-center flex flex-wrap">
           <h1 className="text-3xl text-center w-full text-slate-200 font-bold">
-            J<span className="text-blue-800">S</span> Joda Solutions
+            JS Joda Solutions
           </h1>
           <div className="flex w-full flex-col mt-4">
             <span className="text-sm text-center w-full text-slate-200 font-normal spacing-snug">

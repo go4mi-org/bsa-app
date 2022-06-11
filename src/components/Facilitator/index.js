@@ -9,7 +9,7 @@ const Facilitator = () => {
         <div className="w-full flex items-center">
           <div className="flex flex-wrap mx-auto justify-between gap-16">
             <div className="flex gap-8 flex-col h-80 justify-center px-8">
-              <h1 className="text-4xl text-slate-500 font-bold">
+              <h1 className="text-4xl text-green-600 font-bold">
                 Meet Your
                 <br /> Class Facilitator
               </h1>
