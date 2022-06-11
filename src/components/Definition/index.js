@@ -7,7 +7,7 @@ const Definition = ({ handleRegistrationModal }) => {
     <div id="def" className="w-full pt-24">
       <Container>
         <div className="w-full">
-          <h1 className="text-blue-900 text-4xl mb-8 font-bold text-center">
+          <h1 className="text-blue-900 text-3xl lg:text-4xl mb-8 font-bold text-center">
             Who is a Business System Analyst?
           </h1>
           <div className="flex flex-col gap-4">

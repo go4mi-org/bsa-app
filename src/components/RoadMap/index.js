@@ -12,9 +12,9 @@ const RoadMap = () => {
   };
 
   return (
-    <div id="roadmap" className="w-full py-24">
+    <div id="roadmap" className="w-full pt-24">
       <Container>
-        <h1 className="text-blue-900 text-center text-4xl font-bold mb-8">
+        <h1 className="text-blue-900 text-center text-3xl lg:text-4xl font-bold mb-8">
           Course Road Map
         </h1>
         <div className="w-full flex flex-wrap justify-between gap-8">

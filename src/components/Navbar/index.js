@@ -21,7 +21,7 @@ const Navbar = () => {
     "flex gap-8 py-24 -right-[100%] transition-all top-0 items-center justify-between absolute w-full flex-col lg:right-0 lg:flex-row lg:relative lg:py-0 lg:w-[70%]";
 
   return (
-    <div className="w-full fixed py-4 bg-sky-700 top-0 left-0 z-50">
+    <div className="w-full fixed py-4 lg:py-2 bg-sky-700 top-0 left-0 z-50">
       <Container>
         <div className="w-full py-2 text-slate-100">
           <div className="flex justify-between items-center">
@@ -33,7 +33,7 @@ const Navbar = () => {
                 !openNavBar ? toggleNavbarCloseStyle : toggleNavbarOpenStyle
               }
             >
-              <ul className="flex flex-col gap-8 lg:gap-0 lg:flex-row font-semibold justify-between items-center border-slate-300">
+              <ul className="flex flex-col gap-8 lg:gap-0 lg:flex-row font-normal justify-between items-center border-slate-300">
                 <li className="max-w-48 hover:border-b-4 hover:border-slate-200">
                   <a
                     className="border-slate-500 px-4 w-full"

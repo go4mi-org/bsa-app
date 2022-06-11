@@ -5,7 +5,7 @@ import { GiCheckMark } from "react-icons/gi";
 const Objectives = () => {
   return (
     <div id="obj" className="w-full pt-24 flex flex-col justify-center">
-      <h1 className="text-blue-900 text-center text-4xl font-bold mb-8">
+      <h1 className="text-blue-900 text-center text-3xl lg:text-4xl font-bold mb-8">
         Learning Objectives
       </h1>
       <Container>

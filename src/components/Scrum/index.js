@@ -7,14 +7,14 @@ const ScrumCert = () => {
   return (
     <div id="cert" className="w-full py-24">
       <Container>
-        <h1 className="text-blue-900 text-center text-4xl font-bold mb-8">
+        <h1 className="text-blue-900 text-center text-3xl lg:text-4xl font-bold">
           Scrum Master Certified{" "}
           <img className="inline h-8" src={SMC} alt="SMC Logo" />
         </h1>
         <div className="w-full min-h-[400px] gap-4 flex flex-wrap">
           <div className="flex">
-            <ul className="text-slate-700 justify-between w-full pt-12 px-4 py-4 mb-8 gap-8 flex flex-wrap">
-              <h1 className="text-3xl text-center md:text-left w-full mb-4 text-slate-700 font-bold">
+            <ul className="text-slate-700 justify-between w-full pt-6 px-4 py-4 mb-4 gap-8 flex flex-wrap">
+              <h1 className="text-2xl lg:text-3xl text-center md:text-left w-full text-slate-700 font-bold">
                 Why Scrum Cert?
               </h1>
               <li className="flex leading-loose gap-4 relative bg-slate-100 p-4 min-w-[250px] lg:max-w-[600px]">
@@ -39,12 +39,12 @@ const ScrumCert = () => {
             </ul>
           </div>
           <div className="flex">
-            <ul className="text-slate-700 w-full gap-8 pt-12 px-4 py-4 mb-8 flex flex-wrap">
+            <ul className="text-slate-700 w-full gap-8 pt-12 px-4 py-4 mb-4 flex flex-wrap">
               <div className="w-full">
-                <h1 className="text-3xl text-center lg:text-left w-full text-slate-600 font-bold">
+                <h1 className="text-2xl lg:text-3xl text-center lg:text-left w-full text-slate-600 font-bold">
                   The Scrum Cert Exam
                 </h1>
-                <p className="text-center md:text-left w-full mb-4 text-slate-600">
+                <p className="text-center md:text-left w-full  text-slate-600">
                   Can be completed 180 days from the day of registration
                 </p>
               </div>

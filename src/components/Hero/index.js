@@ -12,7 +12,7 @@ const Hero = ({ handleRegistrationModal }) => {
         <div className="relative text-slate-700 flex flex-col-reverse lg:flex-row min-h-[70vh] items-center justify-center">
           <div className="flex scaler lg:flex-1 flex-col lg:scale-[1.1] lg:ml-16">
             <div className="flex flex-col mb-6">
-              <h1 className="capitalize font-bold text-blue-900 mb-4 text-4xl">
+              <h1 className="capitalize text-3xl font-bold text-blue-900 mb-4 lg:text-4xl">
                 Business Systems Analysts
               </h1>
               <h3 className="capitalize text-slate-500 font-semibold text-2xl">
