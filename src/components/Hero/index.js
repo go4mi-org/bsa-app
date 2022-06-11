@@ -3,6 +3,7 @@ import Container from "../Container";
 import LinkWrapper from "../Link";
 import { FaRegEdit } from "react-icons/fa";
 import HeroBg from "../../assets/heroBg2.jpg";
+import SMC from "../../assets/smc-home.png";
 
 const Hero = ({ handleRegistrationModal }) => {
   return (
@@ -24,7 +25,8 @@ const Hero = ({ handleRegistrationModal }) => {
 
             <div className="flex gap-2 mb-8">
               <span className="w-max text-slate-600 font-bold rounded-lg">
-                Scrum Master Certified (SMC") Certification
+                Scrum Master Certified{" "}
+                <img className="inline h-4" src={SMC} alt="SMC Logo" />{" "}
               </span>
             </div>
             <LinkWrapper

@@ -1,14 +1,15 @@
 import React from "react";
 import { GiCheckMark } from "react-icons/gi";
 import Container from "../Container";
+import SMC from "../../assets/smc-home.png";
 
 const ScrumCert = () => {
   return (
     <div id="cert" className="w-full py-24">
       <Container>
         <h1 className="text-blue-900 text-center text-4xl font-bold mb-8">
-          Scrum Master Certified (SMC
-          <sup className="font-normal text-2xl">TM</sup>) Certification
+          Scrum Master Certified{" "}
+          <img className="inline h-8" src={SMC} alt="SMC Logo" />
         </h1>
         <div className="w-full min-h-[400px] gap-4 flex flex-wrap">
           <div className="flex">
@@ -27,12 +28,13 @@ const ScrumCert = () => {
 
               <li className="flex leading-loose gap-4 relative bg-slate-100 p-4 min-w-[250px] lg:max-w-[600px]">
                 <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
-                Scrum Master Certified (SMCTM) Certification Why Scrum Cert?
-                Like any other certification, the Scrum Master Certificate tells
-                potential employers that you have learned, understand and can
-                practice the core scrum principles. It also proves that you have
-                an agile mindset, an attribute that your organization can
-                leverage.
+                A Scrum Master Certification from SCRUMstudy will significantly
+                help improve your employability and help drive your career
+                growth. The skills you will acquire from taking the classes
+                associated with this certification will make you a formidable
+                candidate in your career prospects and offer a higher salary as
+                compared to your uncertified Access the online course and take
+                the exam peers.
               </li>
             </ul>
           </div>
