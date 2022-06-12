@@ -39,7 +39,7 @@ const ScrumCert = () => {
             </ul>
           </div>
           <div className="flex">
-            <ul className="text-slate-700 w-full gap-8 pt-12 px-4 py-4 mb-4 flex flex-wrap">
+            <ul className="text-slate-700 w-full gap-12 justify-between pt-12 px-4 py-4 mb-4 flex flex-wrap">
               <div className="w-full">
                 <h1 className="text-2xl lg:text-3xl text-center lg:text-left w-full text-slate-600 font-bold">
                   The Scrum Cert Exam
