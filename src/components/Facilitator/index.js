@@ -27,15 +27,15 @@ const Facilitator = () => {
                 </span>
               </div>
               <ul className="flex flex-col gap-2 text-slate-500">
-                <li className="flex gap-2  justify-center sm:justify-start">
+                <li className="flex gap-2  justify-start">
                   <AiOutlineStar className="text-green-600" /> Senior Business
                   Analysts/Product Manager
                 </li>
-                <li className="flex gap-2 justify-center sm:justify-start">
+                <li className="flex gap-2 justify-start">
                   <AiOutlineStar className="text-green-600" />
                   Scrum Trainer
                 </li>
-                <li className="flex gap-2 justify-center sm:justify-start">
+                <li className="flex gap-2 justify-start">
                   <AiOutlineStar className="text-green-600" />
                   Over Ten (10) years of Experience
                 </li>
