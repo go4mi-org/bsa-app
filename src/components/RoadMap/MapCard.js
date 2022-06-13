@@ -10,7 +10,7 @@ const MapCard = ({ course, handleIdDispatcher }) => {
       </div>
       <button
         onClick={() => handleIdDispatcher(course.id)}
-        className="bg-green-600 font-normal mx-auto flex active:scale-[0.97] items-center gap-2 w-max px-6 py-2 rounded-lg text-white"
+        className="bg-blue-600 font-normal mx-auto flex active:scale-[0.97] items-center gap-2 w-max px-6 py-2 rounded-lg text-white"
       >
         Check <BsArrowRightCircle className="text-lg stroke-1" />
       </button>

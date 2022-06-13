@@ -25,7 +25,7 @@ const Definition = ({ handleRegistrationModal }) => {
               The average pay for a BSA in the United States is roughly $85,344,
               according to{" "}
               <a
-                className="font-bold text-green-600"
+                className="font-bold text-blue-600"
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.glassdoor.com/Salaries/business-systems-analyst-salary-SRCH_KO0,24.htm"
@@ -47,7 +47,7 @@ const Definition = ({ handleRegistrationModal }) => {
             <div className="">
               <div className="text-white flex flex-col py-4">
                 <a
-                  className="bg-green-600 flex items-center gap-2 rounded-lg w-max px-8 py-1 mb-2 leading-loose"
+                  className="bg-blue-600 flex items-center gap-2 rounded-lg w-max px-8 py-1 mb-2 leading-loose"
                   href="#reg"
                   onClick={handleRegistrationModal}
                 >

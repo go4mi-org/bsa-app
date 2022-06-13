@@ -42,7 +42,7 @@ const RoadMap = () => {
                     {course.scheme.map((item) => {
                       return (
                         <li className="flex gap-2" key={item}>
-                          <GiCheckMark className="text-green-600" /> {item}
+                          <GiCheckMark className="text-blue-600" /> {item}
                         </li>
                       );
                     })}

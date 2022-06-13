@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { stateData } from "../../Utils/states";
 import Container from "../Container";
 import axios from "axios";
-import { REDIRECT_LINK, BASE_URL } from "../../api/_redirect";
+import { REDIRECT_LINK, BASE_URL } from "../../_api/_redirect";
 
 const Form = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
   const [firsName, setFirstName] = useState("");

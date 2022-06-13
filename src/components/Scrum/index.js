@@ -2,8 +2,9 @@ import React from "react";
 import { GiCheckMark } from "react-icons/gi";
 import Container from "../Container";
 import SMC from "../../assets/smc-home.png";
+import { FaRegEdit } from "react-icons/fa";
 
-const ScrumCert = () => {
+const ScrumCert = ({ handleRegistrationModal }) => {
   return (
     <div id="cert" className="w-full py-24">
       <Container>
@@ -18,7 +19,7 @@ const ScrumCert = () => {
                 Why Scrum Cert?
               </h1>
               <li className="flex leading-loose gap-4 relative bg-slate-100 p-4 min-w-[250px] lg:max-w-[600px]">
-                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-blue-600" />{" "}
                 Like any other certification, the Scrum Master Certificate tells
                 potential employers that you have learned, understand and can
                 practice the core scrum principles. It also proves that you have
@@ -27,7 +28,7 @@ const ScrumCert = () => {
               </li>
 
               <li className="flex leading-loose gap-4 relative bg-slate-100 p-4 min-w-[250px] lg:max-w-[600px]">
-                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-blue-600" />{" "}
                 A Scrum Master Certification from SCRUMstudy will significantly
                 help improve your employability and help drive your career
                 growth. The skills you will acquire from taking the classes
@@ -49,7 +50,7 @@ const ScrumCert = () => {
                 </p>
               </div>
               <li className="flex flex-col leading-loose gap-4 relative bg-slate-100 p-4 min-w-[250px] lg:max-w-[600px]">
-                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-blue-600" />{" "}
                 <h1 className="font-bold">
                   Successful candidates will be awarded the Scrum R Master
                   Certified (SMC ) Certification by SCRUMstudy
@@ -65,7 +66,7 @@ const ScrumCert = () => {
               </li>
 
               <li className="flex flex-col leading-loose gap-4 relative bg-slate-100 p-4 min-w-[250px] lg:max-w-[600px]">
-                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-blue-600" />{" "}
                 <h1 className="font-bold">
                   Access the online course and take the exam
                 </h1>
@@ -82,7 +83,7 @@ const ScrumCert = () => {
               </li>
 
               <li className="flex flex-col leading-loose gap-4 relative bg-slate-100 p-4 min-w-[250px] lg:max-w-[600px]">
-                <GiCheckMark className="absolute -left-6 top-0 text-xl text-green-600" />{" "}
+                <GiCheckMark className="absolute -left-6 top-0 text-xl text-blue-600" />{" "}
                 <h1 className="font-bold">
                   Upon successful completion of the exam, get an online
                   certificate
@@ -105,6 +106,15 @@ const ScrumCert = () => {
                 </ul>
               </li>
             </ul>
+          </div>
+          <div className="text-white flex flex-col py-4">
+            <a
+              className="bg-blue-600 flex items-center gap-2 rounded-lg ml-4 w-max px-8 py-1 mb-2 leading-loose"
+              href="#reg"
+              onClick={handleRegistrationModal}
+            >
+              Register here <FaRegEdit />
+            </a>
           </div>
         </div>
       </Container>

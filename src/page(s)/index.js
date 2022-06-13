@@ -23,7 +23,7 @@ const Home = () => {
       <RoadMap />
       <Facilitator />
       <Objectives />
-      <ScrumCert />
+      <ScrumCert handleRegistrationModal={handleRegistrationModal} />
       <Contact />
       <Form
         toggleRegistrationModal={toggleRegistrationModal}

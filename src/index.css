@@ -40,8 +40,19 @@
   }
 }
 
+@media (max-width: 510px) {
+  .center {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
 @media (max-width: 400px) {
   .scaler {
     transform: scale(0.8);
+  }
+
+  .adjust {
+    transform: translateX(-3rem) scale(0.6);
   }
 }

@@ -3,6 +3,7 @@ import Container from "../Container";
 import LinkWrapper from "../Link";
 import { RiContactsLine } from "react-icons/ri";
 import { CgMenuGridR } from "react-icons/cg";
+import Joda from "../../assets/joda-logo.png";
 
 const Navbar = () => {
   const [openNavBar, setOpenNavbar] = useState(false);
@@ -16,25 +17,29 @@ const Navbar = () => {
   };
 
   const toggleNavbarOpenStyle =
-    "flex gap-8 py-24 right-0 transition-all top-0 items-center justify-between bg-sky-700 absolute w-full flex-col lg:flex-row lg:relative lg:py-0 lg:w-[70%]";
+    "flex gap-8 py-24 right-0 transition-all top-0 items-center justify-between bg-white absolute w-full flex-col lg:flex-row lg:relative lg:py-0 lg:w-[70%]";
   const toggleNavbarCloseStyle =
     "flex gap-8 py-24 -right-[100%] transition-all top-0 items-center justify-between absolute w-full flex-col lg:right-0 lg:flex-row lg:relative lg:py-0 lg:w-[70%]";
 
   return (
-    <div className="w-full fixed py-4 lg:py-2 bg-sky-700 top-0 left-0 z-50">
+    <div className="w-full fixed bg-white top-0 left-0 z-50">
       <Container>
-        <div className="w-full py-2 text-slate-100">
+        <div className="w-full py-2 text-slate-900 font-[500]">
           <div className="flex justify-between items-center">
             <a className="text-xl font-bold z-50" href="#logo">
-              JS Joda Solutions
+              <img
+                className="-translate-x-[76px] adjust  scale-[0.6]"
+                src={Joda}
+                alt="Joda"
+              />
             </a>
             <div
               className={
                 !openNavBar ? toggleNavbarCloseStyle : toggleNavbarOpenStyle
               }
             >
-              <ul className="flex flex-col gap-8 lg:gap-0 lg:flex-row font-normal justify-between items-center border-slate-300">
-                <li className="max-w-48 hover:border-b-4 hover:border-slate-200">
+              <ul className="flex font-[500] flex-col gap-8 lg:gap-0 lg:flex-row font-normal justify-between items-center border-slate-300">
+                <li className="max-w-48 hover:text-blue-600 hover:font-[600]">
                   <a
                     className="border-slate-500 px-4 w-full"
                     href="#def"
@@ -43,7 +48,7 @@ const Navbar = () => {
                     Definition(s)
                   </a>
                 </li>
-                <li className="max-w-48 hover:border-b-4 hover:border-slate-200">
+                <li className="max-w-48 hover:text-blue-600 hover:font-[600]">
                   <a
                     className="border-slate-500 px-4 w-full"
                     href="#roadmap"
@@ -52,7 +57,7 @@ const Navbar = () => {
                     Road Map
                   </a>
                 </li>
-                <li className="max-w-48 hover:border-b-4 hover:border-slate-200">
+                <li className="max-w-48 hover:text-blue-600 hover:font-[600]">
                   <a
                     className="border-slate-500 px-4 w-full"
                     href="#obj"
@@ -61,7 +66,7 @@ const Navbar = () => {
                     Learning Objectives
                   </a>
                 </li>
-                <li className="max-w-48 hover:border-b-4 hover:border-slate-200">
+                <li className="max-w-48 hover:text-blue-600 hover:font-[600]">
                   <a href="#cert" onClick={handleCloseNavBar}>
                     Certification
                   </a>

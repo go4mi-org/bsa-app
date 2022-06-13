@@ -23,7 +23,8 @@ const Hero = ({ handleRegistrationModal }) => {
               </p>
             </div>
 
-            <div className="flex gap-2 mb-8">
+            <div className="flex flex-col mb-8">
+              <span className="text-blue-600 font-bold">Comes with:</span>
               <span className="w-max text-slate-600 font-bold rounded-lg">
                 Scrum Master Certified{" "}
                 <img className="inline h-4" src={SMC} alt="SMC Logo" />{" "}
