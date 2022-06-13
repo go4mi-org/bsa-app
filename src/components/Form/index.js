@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { stateData } from "../../Utils/states";
 import Container from "../Container";
 import axios from "axios";
-import { REDIRECT_LINK } from "../../api/_redirect";
+import { REDIRECT_LINK, BASE_URL } from "../../api/_redirect";
 
 const Form = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
   const [firsName, setFirstName] = useState("");
@@ -16,7 +16,7 @@ const Form = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
   const handleSubmitForm = (e) => {
     e.preventDefault();
     axios
-      .post("https://beacon.opsendev.com/api/bsa_app/register/", {
+      .post(BASE_URL, {
         first_name: firsName,
         last_name: lastName,
         email: email,
