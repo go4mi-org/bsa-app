@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { stateData } from "../../Utils/states";
 import Container from "../Container";
 import axios from "axios";
+import { TbCurrencyNaira } from "react-icons/tb";
 import { REDIRECT_LINK, BASE_URL } from "../../_api/_redirect";
 
 const Form = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
@@ -58,8 +59,9 @@ const Form = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
         <div className="h-full w-full py-8">
           <div className="flex-1 flex px-12 flex-col justify-center items-center mb-4">
             <div className="text-slate-200 w-max text-right font-bold">
-              <span className="font-bold text-2xl lg:text-3xl">
-                #550, 000(FP)
+              <span className="font-bold flex text-2xl lg:text-3xl">
+                <TbCurrencyNaira className="text-4xl"/>
+                550, 000(FP)
               </span>{" "}
               <br />
             </div>
