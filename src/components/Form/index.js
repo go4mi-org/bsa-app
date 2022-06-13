@@ -60,7 +60,7 @@ const Form = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
           <div className="flex-1 flex px-12 flex-col justify-center items-center mb-4">
             <div className="text-slate-200 w-max text-right font-bold">
               <span className="font-bold flex text-2xl lg:text-3xl">
-                <TbCurrencyNaira className="text-4xl"/>
+                <TbCurrencyNaira className="text-3xl lg:text-4xl" />
                 550, 000(FP)
               </span>{" "}
               <br />
