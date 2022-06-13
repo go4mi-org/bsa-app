@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { stateData } from "../../Utils/states";
 import Container from "../Container";
 import axios from "axios";
+import { REDIRECT_LINK } from "../../api/_redirect";
 
 const Form = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
   const [firsName, setFirstName] = useState("");
@@ -37,7 +38,7 @@ const Form = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
     if (formResponse === 201)
       setTimeout(() => {
         setFormResponse("");
-        window.location.href = "https://google.com";
+        window.location.href = REDIRECT_LINK;
       }, 3000);
   }, [formResponse]);
 
