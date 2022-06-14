@@ -3,7 +3,6 @@ import { stateData } from "../../Utils/states";
 import Container from "../Container";
 import axios from "axios";
 import { TbCurrencyNaira } from "react-icons/tb";
-import { REDIRECT_LINK, BASE_URL } from "../../_api/_redirect";
 
 const Form = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
   const [firsName, setFirstName] = useState("");
@@ -17,7 +16,7 @@ const Form = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
   const handleSubmitForm = (e) => {
     e.preventDefault();
     axios
-      .post(BASE_URL, {
+      .post(process.env.REACT_APP_BASE_URL, {
         first_name: firsName,
         last_name: lastName,
         email: email,
@@ -39,7 +38,7 @@ const Form = ({ toggleRegistrationModal, setToggleRegistrationModal }) => {
     if (formResponse === 201)
       setTimeout(() => {
         setFormResponse("");
-        window.location.href = REDIRECT_LINK;
+        window.location.href = process.env.REACT_APP_REDIRECT_LINK;
       }, 3000);
   }, [formResponse]);
 
